@@ -3,13 +3,13 @@ MySQL Queries:
    show databases;
    
 2) In order to create a database in mysql
-   create database dbname;
+   create database online_trainings;
    
 3) In order to delete a database in mysql
-   drop database dbname;
+   drop database online_trainings;
 
 4) For selecting a database among multiple databases
-   use dbname;
+   use online_trainings;
 
 5) Inorder to see the tables inside the database 
    show tables;
@@ -26,7 +26,7 @@ MySQL Queries:
 9) Inorder to see the records inside a table
    select * from employee;
    
-10) I know the table columns but i dont know the column order
+10) I know the table columns but i dont know the column order or sequence
     insert into employee (address, eid, ename) values ('Banglore',2,'Raju');
 	
 11) Insert data into a specific columns
