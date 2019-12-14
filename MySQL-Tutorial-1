@@ -1,0 +1,36 @@
+MySQL Queries:
+1) In order to show the databases available in mysql
+   show databases;
+   
+2) In order to create a database in mysql
+   create database dbname;
+   
+3) In order to delete a database in mysql
+   drop database dbname;
+
+4) For selecting a database among multiple databases
+   use dbname;
+
+5) Inorder to see the tables inside the database 
+   show tables;
+   
+6) For creating a table in MySQL
+   create table employee(eid int, ename varchar(15), address varchar(20));
+   
+7) Describe table structure
+   desc employee;
+ 
+8) Insert data into the table
+   insert into employee values (1,'Giridhar','Banglore');
+   
+9) Inorder to see the records inside a table
+   select * from employee;
+   
+10) I know the table columns but i dont know the column order
+    insert into employee (address, eid, ename) values ('Banglore',2,'Raju');
+	
+11) Insert data into a specific columns
+    insert into employee (address,ename) values('Bangalore','Hari');
+	
+12) How to update a record in a table
+    update employee set eid=3 where ename='Hari';
