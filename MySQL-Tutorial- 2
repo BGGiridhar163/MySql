@@ -1,0 +1,34 @@
+MySQL Queries:
+1) In order to get a specific record from table
+   select * from employee where eid=1;
+
+2) In order to get a specific columns from the table
+   select ename, address from employee where eid=1;
+   
+3) In order to check no of records available in my table
+   select count(*) from employee;
+
+4) In order to get multiple records from table
+   select ename, address from employee where eid in(1,2);
+   
+5) In order to delete a record from the table
+   delete from employee where eid=3;
+   
+6) In ordere to delete all the records from the table
+   I) delete from employee;
+   II) truncate employee;
+   
+7) In order to delete a table from the database
+   drop table employee;
+   
+8) In order to add a new column to the table
+   alter table employee add column salary int;
+   
+9) In order to add a new column in the middle of the table
+   alter table employee add column surname varchar(10) after eid;
+ 
+10) In order to drop a column in the table
+    alter table employee drop column salary;
+	
+11) In order to modify a column in the table
+    alter table employee modify column surname varchar(15);
